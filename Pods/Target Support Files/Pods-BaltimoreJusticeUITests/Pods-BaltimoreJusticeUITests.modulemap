@@ -1,0 +1,6 @@
+framework module Pods_BaltimoreJusticeUITests {
+  umbrella header "Pods-BaltimoreJusticeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

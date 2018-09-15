@@ -7,14 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		019842D379C65F92764CD9F2 /* Pods_BaltimoreJusticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F891D6062C118217501C6080 /* Pods_BaltimoreJusticeTests.framework */; };
+		A70BA3351E44C2D30061B3E4 /* ExtraButtonsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70BA3341E44C2D30061B3E4 /* ExtraButtonsInfo.swift */; };
+		A72BD8C61E23C62400A14F6A /* TypeAndAgencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72BD8C51E23C62400A14F6A /* TypeAndAgencyViewController.swift */; };
+		A73EBB5F1E24A02600D590F3 /* MediaImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73EBB5E1E24A02600D590F3 /* MediaImageTableViewCell.swift */; };
+		A73EBB611E24A08300D590F3 /* MediaVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73EBB601E24A08300D590F3 /* MediaVideoTableViewCell.swift */; };
+		A73EBB631E24A10700D590F3 /* YourInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73EBB621E24A10700D590F3 /* YourInfoTableViewCell.swift */; };
+		A73EBB651E2521F400D590F3 /* YourInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73EBB641E2521F400D590F3 /* YourInfoTableViewController.swift */; };
+		A73EBB671E25227900D590F3 /* MediaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73EBB661E25227900D590F3 /* MediaTableViewController.swift */; };
+		A73EBB691E2542D800D590F3 /* YourInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73EBB681E2542D800D590F3 /* YourInfo.swift */; };
+		A740E2421E6BCAC50069CB46 /* FileAReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A740E2411E6BCAC50069CB46 /* FileAReportViewController.swift */; };
+		A757B9911E2A760300DDD4EE /* ConfirmationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A757B9901E2A760300DDD4EE /* ConfirmationTableViewController.swift */; };
+		A75D17DE1E144B9B00EE12F2 /* OfficerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75D17DD1E144B9B00EE12F2 /* OfficerDetailsViewController.swift */; };
+		A75D17E01E1451DB00EE12F2 /* EventDescriptionAndMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75D17DF1E1451DB00EE12F2 /* EventDescriptionAndMediaViewController.swift */; };
+		A75D17E41E147AE200EE12F2 /* OfficerPatrolDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75D17E31E147AE200EE12F2 /* OfficerPatrolDetailsViewController.swift */; };
+		A75D17E61E14894200EE12F2 /* ReferralInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75D17E51E14894200EE12F2 /* ReferralInfoViewController.swift */; };
+		A7683F281E26D9CF00C2D5E2 /* SubmissionHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7683F271E26D9CF00C2D5E2 /* SubmissionHistoryTableViewCell.swift */; };
+		A76E75C81E27B7AB00838513 /* EditYourInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76E75C71E27B7AB00838513 /* EditYourInfoTableViewCell.swift */; };
+		A76E75CA1E27B9C800838513 /* EditYourInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76E75C91E27B9C800838513 /* EditYourInfoTableViewController.swift */; };
+		A76E75CC1E28038200838513 /* EditYourInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76E75CB1E28038200838513 /* EditYourInfo.swift */; };
+		A785E8EB1E267A9900B4765E /* WhyNeededTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A785E8EA1E267A9900B4765E /* WhyNeededTableViewCell.swift */; };
+		A79331091E72539E00AE4FAE /* ConfirmReportInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79331081E72539E00AE4FAE /* ConfirmReportInfoTableViewCell.swift */; };
+		A79D87BB1E0B32290077684E /* DateAndLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79D87BA1E0B32290077684E /* DateAndLocationViewController.swift */; };
+		A79D87C51E0B8DA10077684E /* SafeLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79D87C41E0B8DA10077684E /* SafeLocations.swift */; };
+		A7A51AFD1E6D137B00DA7FA2 /* ConfirmYourInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A51AFC1E6D137B00DA7FA2 /* ConfirmYourInfoTableViewController.swift */; };
+		A7ACDD0C1E4C04870078C3E2 /* ConfirmYourInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ACDD0B1E4C04870078C3E2 /* ConfirmYourInfoTableViewCell.swift */; };
+		A7ACDD0D1E4C04870078C3E2 /* ConfirmYourInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ACDD0B1E4C04870078C3E2 /* ConfirmYourInfoTableViewCell.swift */; };
+		A7ACDD0E1E4C04870078C3E2 /* ConfirmYourInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ACDD0B1E4C04870078C3E2 /* ConfirmYourInfoTableViewCell.swift */; };
+		A7ACDD101E4C06230078C3E2 /* ConfirmPersonalInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ACDD0F1E4C06230078C3E2 /* ConfirmPersonalInfoTableViewCell.swift */; };
+		A7ACDD111E4C06230078C3E2 /* ConfirmPersonalInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ACDD0F1E4C06230078C3E2 /* ConfirmPersonalInfoTableViewCell.swift */; };
+		A7ACDD121E4C06230078C3E2 /* ConfirmPersonalInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ACDD0F1E4C06230078C3E2 /* ConfirmPersonalInfoTableViewCell.swift */; };
+		A7ACDD141E4C06470078C3E2 /* ConfirmMediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ACDD131E4C06470078C3E2 /* ConfirmMediaTableViewCell.swift */; };
+		A7ACDD151E4C06470078C3E2 /* ConfirmMediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ACDD131E4C06470078C3E2 /* ConfirmMediaTableViewCell.swift */; };
+		A7ACDD161E4C06470078C3E2 /* ConfirmMediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ACDD131E4C06470078C3E2 /* ConfirmMediaTableViewCell.swift */; };
+		A7ACDD181E4C30F60078C3E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7ACDD171E4C30F60078C3E2 /* GoogleService-Info.plist */; };
 		A7F3EFAA1E03800200556ED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EFA91E03800200556ED9 /* AppDelegate.swift */; };
-		A7F3EFAC1E03800200556ED9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EFAB1E03800200556ED9 /* FirstViewController.swift */; };
-		A7F3EFAE1E03800200556ED9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EFAD1E03800200556ED9 /* SecondViewController.swift */; };
+		A7F3EFAC1E03800200556ED9 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EFAB1E03800200556ED9 /* FAQViewController.swift */; };
 		A7F3EFB11E03800200556ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F3EFAF1E03800200556ED9 /* Main.storyboard */; };
 		A7F3EFB31E03800200556ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F3EFB21E03800200556ED9 /* Assets.xcassets */; };
 		A7F3EFB61E03800200556ED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F3EFB41E03800200556ED9 /* LaunchScreen.storyboard */; };
 		A7F3EFC11E03800200556ED9 /* BaltimoreJusticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EFC01E03800200556ED9 /* BaltimoreJusticeTests.swift */; };
 		A7F3EFCC1E03800200556ED9 /* BaltimoreJusticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3EFCB1E03800200556ED9 /* BaltimoreJusticeUITests.swift */; };
+		C7CC1A8FBC0C80AC8A6AB4CE /* Pods_BaltimoreJusticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACBFCA1257F2AA011E012A2 /* Pods_BaltimoreJusticeUITests.framework */; };
+		F04AA19C5BADF3079A106D24 /* Pods_BaltimoreJustice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6FE54163C4214110C03EE0 /* Pods_BaltimoreJustice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +70,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		009B29158BAFA753B8083222 /* Pods-BaltimoreJustice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaltimoreJustice.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaltimoreJustice/Pods-BaltimoreJustice.release.xcconfig"; sourceTree = "<group>"; };
+		6A6FE54163C4214110C03EE0 /* Pods_BaltimoreJustice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaltimoreJustice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A3BCF32CCEE50CCFEF1BCBE /* Pods-BaltimoreJustice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaltimoreJustice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaltimoreJustice/Pods-BaltimoreJustice.debug.xcconfig"; sourceTree = "<group>"; };
+		96F51718D8450DC13CC1FADB /* Pods-BaltimoreJusticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaltimoreJusticeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaltimoreJusticeTests/Pods-BaltimoreJusticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		A70BA3341E44C2D30061B3E4 /* ExtraButtonsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraButtonsInfo.swift; sourceTree = "<group>"; };
+		A72BD8C51E23C62400A14F6A /* TypeAndAgencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeAndAgencyViewController.swift; sourceTree = "<group>"; };
+		A73EBB5E1E24A02600D590F3 /* MediaImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaImageTableViewCell.swift; sourceTree = "<group>"; };
+		A73EBB601E24A08300D590F3 /* MediaVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaVideoTableViewCell.swift; sourceTree = "<group>"; };
+		A73EBB621E24A10700D590F3 /* YourInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourInfoTableViewCell.swift; sourceTree = "<group>"; };
+		A73EBB641E2521F400D590F3 /* YourInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourInfoTableViewController.swift; sourceTree = "<group>"; };
+		A73EBB661E25227900D590F3 /* MediaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaTableViewController.swift; sourceTree = "<group>"; };
+		A73EBB681E2542D800D590F3 /* YourInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourInfo.swift; sourceTree = "<group>"; };
+		A740E2411E6BCAC50069CB46 /* FileAReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileAReportViewController.swift; sourceTree = "<group>"; };
+		A757B9901E2A760300DDD4EE /* ConfirmationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationTableViewController.swift; sourceTree = "<group>"; };
+		A75D17DD1E144B9B00EE12F2 /* OfficerDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfficerDetailsViewController.swift; sourceTree = "<group>"; };
+		A75D17DF1E1451DB00EE12F2 /* EventDescriptionAndMediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDescriptionAndMediaViewController.swift; sourceTree = "<group>"; };
+		A75D17E31E147AE200EE12F2 /* OfficerPatrolDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfficerPatrolDetailsViewController.swift; sourceTree = "<group>"; };
+		A75D17E51E14894200EE12F2 /* ReferralInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferralInfoViewController.swift; sourceTree = "<group>"; };
+		A7683F271E26D9CF00C2D5E2 /* SubmissionHistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmissionHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		A76E75C71E27B7AB00838513 /* EditYourInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditYourInfoTableViewCell.swift; sourceTree = "<group>"; };
+		A76E75C91E27B9C800838513 /* EditYourInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditYourInfoTableViewController.swift; sourceTree = "<group>"; };
+		A76E75CB1E28038200838513 /* EditYourInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditYourInfo.swift; sourceTree = "<group>"; };
+		A785E8EA1E267A9900B4765E /* WhyNeededTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhyNeededTableViewCell.swift; sourceTree = "<group>"; };
+		A79331081E72539E00AE4FAE /* ConfirmReportInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmReportInfoTableViewCell.swift; sourceTree = "<group>"; };
+		A79D87BA1E0B32290077684E /* DateAndLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateAndLocationViewController.swift; sourceTree = "<group>"; };
+		A79D87C41E0B8DA10077684E /* SafeLocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeLocations.swift; sourceTree = "<group>"; };
+		A7A51AFC1E6D137B00DA7FA2 /* ConfirmYourInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmYourInfoTableViewController.swift; sourceTree = "<group>"; };
+		A7ACDD0B1E4C04870078C3E2 /* ConfirmYourInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmYourInfoTableViewCell.swift; sourceTree = "<group>"; };
+		A7ACDD0F1E4C06230078C3E2 /* ConfirmPersonalInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmPersonalInfoTableViewCell.swift; sourceTree = "<group>"; };
+		A7ACDD131E4C06470078C3E2 /* ConfirmMediaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmMediaTableViewCell.swift; sourceTree = "<group>"; };
+		A7ACDD171E4C30F60078C3E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../.Trash/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A7F3EFA61E03800200556ED9 /* BaltimoreJustice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaltimoreJustice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F3EFA91E03800200556ED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7F3EFAB1E03800200556ED9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A7F3EFAD1E03800200556ED9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A7F3EFAB1E03800200556ED9 /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
 		A7F3EFB01E03800200556ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7F3EFB21E03800200556ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7F3EFB51E03800200556ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +114,11 @@
 		A7F3EFC71E03800200556ED9 /* BaltimoreJusticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaltimoreJusticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F3EFCB1E03800200556ED9 /* BaltimoreJusticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaltimoreJusticeUITests.swift; sourceTree = "<group>"; };
 		A7F3EFCD1E03800200556ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD92AC4E54587680A7784411 /* Pods-BaltimoreJusticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaltimoreJusticeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaltimoreJusticeUITests/Pods-BaltimoreJusticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D44E511D8EEA74CAFECC4D5F /* Pods-BaltimoreJusticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaltimoreJusticeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaltimoreJusticeTests/Pods-BaltimoreJusticeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7AA2D83A483E04BC6A736FB /* Pods-BaltimoreJusticeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaltimoreJusticeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaltimoreJusticeUITests/Pods-BaltimoreJusticeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F891D6062C118217501C6080 /* Pods_BaltimoreJusticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaltimoreJusticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACBFCA1257F2AA011E012A2 /* Pods_BaltimoreJusticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaltimoreJusticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04AA19C5BADF3079A106D24 /* Pods_BaltimoreJustice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019842D379C65F92764CD9F2 /* Pods_BaltimoreJusticeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +142,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7CC1A8FBC0C80AC8A6AB4CE /* Pods_BaltimoreJusticeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		739FA21F69A7E5412E22C05F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A3BCF32CCEE50CCFEF1BCBE /* Pods-BaltimoreJustice.debug.xcconfig */,
+				009B29158BAFA753B8083222 /* Pods-BaltimoreJustice.release.xcconfig */,
+				D44E511D8EEA74CAFECC4D5F /* Pods-BaltimoreJusticeTests.debug.xcconfig */,
+				96F51718D8450DC13CC1FADB /* Pods-BaltimoreJusticeTests.release.xcconfig */,
+				CD92AC4E54587680A7784411 /* Pods-BaltimoreJusticeUITests.debug.xcconfig */,
+				F7AA2D83A483E04BC6A736FB /* Pods-BaltimoreJusticeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96738AF9069214BA1775934A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A6FE54163C4214110C03EE0 /* Pods_BaltimoreJustice.framework */,
+				F891D6062C118217501C6080 /* Pods_BaltimoreJusticeTests.framework */,
+				FACBFCA1257F2AA011E012A2 /* Pods_BaltimoreJusticeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A7F3EF9D1E03800200556ED9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +179,8 @@
 				A7F3EFBF1E03800200556ED9 /* BaltimoreJusticeTests */,
 				A7F3EFCA1E03800200556ED9 /* BaltimoreJusticeUITests */,
 				A7F3EFA71E03800200556ED9 /* Products */,
+				739FA21F69A7E5412E22C05F /* Pods */,
+				96738AF9069214BA1775934A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +198,38 @@
 			isa = PBXGroup;
 			children = (
 				A7F3EFA91E03800200556ED9 /* AppDelegate.swift */,
-				A7F3EFAB1E03800200556ED9 /* FirstViewController.swift */,
-				A7F3EFAD1E03800200556ED9 /* SecondViewController.swift */,
+				A7F3EFAB1E03800200556ED9 /* FAQViewController.swift */,
+				A740E2411E6BCAC50069CB46 /* FileAReportViewController.swift */,
+				A73EBB641E2521F400D590F3 /* YourInfoTableViewController.swift */,
+				A76E75C91E27B9C800838513 /* EditYourInfoTableViewController.swift */,
+				A73EBB621E24A10700D590F3 /* YourInfoTableViewCell.swift */,
+				A76E75C71E27B7AB00838513 /* EditYourInfoTableViewCell.swift */,
+				A7683F271E26D9CF00C2D5E2 /* SubmissionHistoryTableViewCell.swift */,
+				A785E8EA1E267A9900B4765E /* WhyNeededTableViewCell.swift */,
 				A7F3EFAF1E03800200556ED9 /* Main.storyboard */,
+				A7A51AFC1E6D137B00DA7FA2 /* ConfirmYourInfoTableViewController.swift */,
+				A7ACDD0B1E4C04870078C3E2 /* ConfirmYourInfoTableViewCell.swift */,
+				A757B9901E2A760300DDD4EE /* ConfirmationTableViewController.swift */,
+				A79331081E72539E00AE4FAE /* ConfirmReportInfoTableViewCell.swift */,
+				A7ACDD0F1E4C06230078C3E2 /* ConfirmPersonalInfoTableViewCell.swift */,
+				A7ACDD131E4C06470078C3E2 /* ConfirmMediaTableViewCell.swift */,
+				A70BA3341E44C2D30061B3E4 /* ExtraButtonsInfo.swift */,
+				A73EBB681E2542D800D590F3 /* YourInfo.swift */,
+				A76E75CB1E28038200838513 /* EditYourInfo.swift */,
+				A73EBB661E25227900D590F3 /* MediaTableViewController.swift */,
+				A73EBB5E1E24A02600D590F3 /* MediaImageTableViewCell.swift */,
+				A73EBB601E24A08300D590F3 /* MediaVideoTableViewCell.swift */,
+				A72BD8C51E23C62400A14F6A /* TypeAndAgencyViewController.swift */,
+				A75D17DF1E1451DB00EE12F2 /* EventDescriptionAndMediaViewController.swift */,
+				A75D17DD1E144B9B00EE12F2 /* OfficerDetailsViewController.swift */,
+				A75D17E31E147AE200EE12F2 /* OfficerPatrolDetailsViewController.swift */,
+				A79D87BA1E0B32290077684E /* DateAndLocationViewController.swift */,
+				A79D87C41E0B8DA10077684E /* SafeLocations.swift */,
+				A75D17E51E14894200EE12F2 /* ReferralInfoViewController.swift */,
 				A7F3EFB21E03800200556ED9 /* Assets.xcassets */,
 				A7F3EFB41E03800200556ED9 /* LaunchScreen.storyboard */,
 				A7F3EFB71E03800200556ED9 /* Info.plist */,
+				A7ACDD171E4C30F60078C3E2 /* GoogleService-Info.plist */,
 			);
 			path = BaltimoreJustice;
 			sourceTree = "<group>";
@@ -135,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7F3EFD01E03800200556ED9 /* Build configuration list for PBXNativeTarget "BaltimoreJustice" */;
 			buildPhases = (
+				5CF03107878B1B77E17A6A86 /* [CP] Check Pods Manifest.lock */,
 				A7F3EFA21E03800200556ED9 /* Sources */,
 				A7F3EFA31E03800200556ED9 /* Frameworks */,
 				A7F3EFA41E03800200556ED9 /* Resources */,
+				9A8F621828581466D66852E8 /* [CP] Embed Pods Frameworks */,
+				D06968806273B17A511ABBAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7F3EFD31E03800200556ED9 /* Build configuration list for PBXNativeTarget "BaltimoreJusticeTests" */;
 			buildPhases = (
+				2061DD8B9C271441E7CD441F /* [CP] Check Pods Manifest.lock */,
 				A7F3EFB81E03800200556ED9 /* Sources */,
 				A7F3EFB91E03800200556ED9 /* Frameworks */,
 				A7F3EFBA1E03800200556ED9 /* Resources */,
+				C6A693FCC5FFB2069E939ADB /* [CP] Embed Pods Frameworks */,
+				D05171478932085822A93CE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +300,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7F3EFD61E03800200556ED9 /* Build configuration list for PBXNativeTarget "BaltimoreJusticeUITests" */;
 			buildPhases = (
+				70FF5F091AF1025280A7347B /* [CP] Check Pods Manifest.lock */,
 				A7F3EFC31E03800200556ED9 /* Sources */,
 				A7F3EFC41E03800200556ED9 /* Frameworks */,
 				A7F3EFC51E03800200556ED9 /* Resources */,
+				E42B2417AAAE555134090682 /* [CP] Embed Pods Frameworks */,
+				0DC8AFE5F995D2808254F6A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7F3EFB61E03800200556ED9 /* LaunchScreen.storyboard in Resources */,
+				A7ACDD181E4C30F60078C3E2 /* GoogleService-Info.plist in Resources */,
 				A7F3EFB31E03800200556ED9 /* Assets.xcassets in Resources */,
 				A7F3EFB11E03800200556ED9 /* Main.storyboard in Resources */,
 			);
@@ -260,14 +394,177 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DC8AFE5F995D2808254F6A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaltimoreJusticeUITests/Pods-BaltimoreJusticeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2061DD8B9C271441E7CD441F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5CF03107878B1B77E17A6A86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70FF5F091AF1025280A7347B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A8F621828581466D66852E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaltimoreJustice/Pods-BaltimoreJustice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A693FCC5FFB2069E939ADB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaltimoreJusticeTests/Pods-BaltimoreJusticeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D05171478932085822A93CE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaltimoreJusticeTests/Pods-BaltimoreJusticeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D06968806273B17A511ABBAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaltimoreJustice/Pods-BaltimoreJustice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E42B2417AAAE555134090682 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaltimoreJusticeUITests/Pods-BaltimoreJusticeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A7F3EFA21E03800200556ED9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7F3EFAE1E03800200556ED9 /* SecondViewController.swift in Sources */,
+				A7A51AFD1E6D137B00DA7FA2 /* ConfirmYourInfoTableViewController.swift in Sources */,
+				A73EBB671E25227900D590F3 /* MediaTableViewController.swift in Sources */,
+				A73EBB651E2521F400D590F3 /* YourInfoTableViewController.swift in Sources */,
+				A7ACDD141E4C06470078C3E2 /* ConfirmMediaTableViewCell.swift in Sources */,
+				A7ACDD101E4C06230078C3E2 /* ConfirmPersonalInfoTableViewCell.swift in Sources */,
+				A76E75C81E27B7AB00838513 /* EditYourInfoTableViewCell.swift in Sources */,
+				A7683F281E26D9CF00C2D5E2 /* SubmissionHistoryTableViewCell.swift in Sources */,
+				A75D17E61E14894200EE12F2 /* ReferralInfoViewController.swift in Sources */,
+				A73EBB691E2542D800D590F3 /* YourInfo.swift in Sources */,
+				A79D87C51E0B8DA10077684E /* SafeLocations.swift in Sources */,
+				A7ACDD0C1E4C04870078C3E2 /* ConfirmYourInfoTableViewCell.swift in Sources */,
+				A757B9911E2A760300DDD4EE /* ConfirmationTableViewController.swift in Sources */,
+				A73EBB5F1E24A02600D590F3 /* MediaImageTableViewCell.swift in Sources */,
 				A7F3EFAA1E03800200556ED9 /* AppDelegate.swift in Sources */,
-				A7F3EFAC1E03800200556ED9 /* FirstViewController.swift in Sources */,
+				A785E8EB1E267A9900B4765E /* WhyNeededTableViewCell.swift in Sources */,
+				A79331091E72539E00AE4FAE /* ConfirmReportInfoTableViewCell.swift in Sources */,
+				A740E2421E6BCAC50069CB46 /* FileAReportViewController.swift in Sources */,
+				A76E75CC1E28038200838513 /* EditYourInfo.swift in Sources */,
+				A73EBB611E24A08300D590F3 /* MediaVideoTableViewCell.swift in Sources */,
+				A79D87BB1E0B32290077684E /* DateAndLocationViewController.swift in Sources */,
+				A7F3EFAC1E03800200556ED9 /* FAQViewController.swift in Sources */,
+				A75D17DE1E144B9B00EE12F2 /* OfficerDetailsViewController.swift in Sources */,
+				A70BA3351E44C2D30061B3E4 /* ExtraButtonsInfo.swift in Sources */,
+				A73EBB631E24A10700D590F3 /* YourInfoTableViewCell.swift in Sources */,
+				A76E75CA1E27B9C800838513 /* EditYourInfoTableViewController.swift in Sources */,
+				A75D17E41E147AE200EE12F2 /* OfficerPatrolDetailsViewController.swift in Sources */,
+				A75D17E01E1451DB00EE12F2 /* EventDescriptionAndMediaViewController.swift in Sources */,
+				A72BD8C61E23C62400A14F6A /* TypeAndAgencyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +573,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7F3EFC11E03800200556ED9 /* BaltimoreJusticeTests.swift in Sources */,
+				A7ACDD0D1E4C04870078C3E2 /* ConfirmYourInfoTableViewCell.swift in Sources */,
+				A7ACDD111E4C06230078C3E2 /* ConfirmPersonalInfoTableViewCell.swift in Sources */,
+				A7ACDD151E4C06470078C3E2 /* ConfirmMediaTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +584,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7F3EFCC1E03800200556ED9 /* BaltimoreJusticeUITests.swift in Sources */,
+				A7ACDD0E1E4C04870078C3E2 /* ConfirmYourInfoTableViewCell.swift in Sources */,
+				A7ACDD121E4C06230078C3E2 /* ConfirmPersonalInfoTableViewCell.swift in Sources */,
+				A7ACDD161E4C06470078C3E2 /* ConfirmMediaTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,10 +720,12 @@
 		};
 		A7F3EFD11E03800200556ED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A3BCF32CCEE50CCFEF1BCBE /* Pods-BaltimoreJustice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LV2DK9Y3L4;
 				INFOPLIST_FILE = BaltimoreJustice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eckart.BaltimoreJustice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,10 +735,12 @@
 		};
 		A7F3EFD21E03800200556ED9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009B29158BAFA753B8083222 /* Pods-BaltimoreJustice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LV2DK9Y3L4;
 				INFOPLIST_FILE = BaltimoreJustice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eckart.BaltimoreJustice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +750,7 @@
 		};
 		A7F3EFD41E03800200556ED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D44E511D8EEA74CAFECC4D5F /* Pods-BaltimoreJusticeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +766,7 @@
 		};
 		A7F3EFD51E03800200556ED9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96F51718D8450DC13CC1FADB /* Pods-BaltimoreJusticeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +782,7 @@
 		};
 		A7F3EFD71E03800200556ED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD92AC4E54587680A7784411 /* Pods-BaltimoreJusticeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LV2DK9Y3L4;
@@ -487,6 +797,7 @@
 		};
 		A7F3EFD81E03800200556ED9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7AA2D83A483E04BC6A736FB /* Pods-BaltimoreJusticeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LV2DK9Y3L4;
@@ -518,6 +829,7 @@
 				A7F3EFD21E03800200556ED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7F3EFD31E03800200556ED9 /* Build configuration list for PBXNativeTarget "BaltimoreJusticeTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +838,7 @@
 				A7F3EFD51E03800200556ED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7F3EFD61E03800200556ED9 /* Build configuration list for PBXNativeTarget "BaltimoreJusticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +847,7 @@
 				A7F3EFD81E03800200556ED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

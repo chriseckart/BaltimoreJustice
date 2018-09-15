@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // firebase config
+        FIRApp.configure()
+
+        // navigation/tab/status bar color
+        
+        let navigationBarAppearance = UINavigationBar.appearance()
+        let tabBarAppearance = UITabBar.appearance()
+        
+        navigationBarAppearance.tintColor = .white
+        navigationBarAppearance.barTintColor = #colorLiteral(red: 0.146127377, green: 0.2876719797, blue: 0.8549019694, alpha: 1)
+        tabBarAppearance.tintColor = .white
+        tabBarAppearance.barTintColor = #colorLiteral(red: 0.146127377, green: 0.2876719797, blue: 0.8549019694, alpha: 1)
+        
+        UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent
+
+        // change navigation item title color
+        navigationBarAppearance.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white]
+
+        
         return true
     }
 
